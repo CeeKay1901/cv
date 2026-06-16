@@ -8,16 +8,15 @@ Erstellt im Hinblick auf die Bewerbung als Marketingmanager:in Leads & Subscript
 
 ## Struktur
 
-- `index.html` — Inhalte
-- `style.css` — Layout, Typografie, Print-Styles für PDF-Export
+- `index.html` — eigenständige Datei, enthält Inhalt, Styling, Schriften und Bild inline
 
 ## Lokal ansehen
+
+Doppelklick auf `index.html` reicht — keine Build-Tools, kein Server nötig.
+
+Alternativ:
 
 ```bash
 python3 -m http.server 8000
 # dann http://localhost:8000 öffnen
 ```
-
-## Platzhalter
-
-Gelb hinterlegte Stellen (`[…]`) sind Platzhalter und müssen mit den persönlichen Daten aus dem LinkedIn-Profil befüllt werden.
